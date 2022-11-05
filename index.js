@@ -7,12 +7,11 @@
 const convertBtn = document.querySelector("#convert-btn");
 const lengthconversionEl = document.querySelector("#lengthconversion-el");
 const num = document.querySelector("#num");
-let unit = 20;
 
 convertBtn.addEventListener("click", function () {
   let lengthstring = "";
-  lengthstring = `${num.value} meters = ${num.value * 3.281} feet | ${
-    num.value
-  } feet = ${num.value / 3.281} meters`;
+  lengthstring = `${num.value} meters = ${(num.value * 3.281).toFixed(
+    3
+  )} feet | ${num.value} feet = ${(num.value / 3.281).toFixed(3)} meters`;
   lengthconversionEl.innerHTML = lengthstring;
 });
