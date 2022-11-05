@@ -9,7 +9,13 @@
   </head>
   <body>
     <div id="hero">
-      <h1>Metric/Imperial Unit Conversion</h1>
+      <h1 id="title">Metric/Imperial Unit Conversion</h1>
+      <input id="num" type="text" inputmode="numeric" pattern="[0-9]*" />
+      <button id="convert-btn">Convert</button>
+    </div>
+    <div id="length">
+      <h2>Length (Meter/Feet)</h2>
+      <p id="lengthconversion-el"></p>
     </div>
     <script src="index.js"></script>
   </body>
