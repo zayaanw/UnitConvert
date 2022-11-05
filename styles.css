@@ -16,6 +16,7 @@ body {
 #title {
   font-family: "Inter", sans-serif;
   font-weight: 800;
+  font-size: 30px;
   padding-bottom: 20px;
   color: white;
 }
@@ -57,8 +58,8 @@ body {
 #length {
   background: #273549;
   color: #ccc1ff;
-  width: 500px;
-  height: 100px;
+  width: 550px;
+  height: 110px;
 }
 
 #lengthconversion-el {
@@ -69,14 +70,22 @@ body {
   margin-top: 20px;
   background: #273549;
   color: #ccc1ff;
-  width: 500px;
-  height: 100px;
+  width: 550px;
+  height: 110px;
+}
+
+#volumeconversion-el {
+  color: white;
 }
 
 #mass {
   margin-top: 20px;
   background: #273549;
   color: #ccc1ff;
-  width: 500px;
-  height: 100px;
+  width: 550px;
+  height: 110px;
+}
+
+#massconversion-el {
+  color: white;
 }
