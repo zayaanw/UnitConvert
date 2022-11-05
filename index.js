@@ -11,6 +11,8 @@ let unit = 20;
 
 convertBtn.addEventListener("click", function () {
   let lengthstring = "";
-  lengthstring = `${num.value} meters times 2 is ${num.value * 2}`;
+  lengthstring = `${num.value} meters = ${num.value * 3.281} feet | ${
+    num.value
+  } feet = ${num.value / 3.281} meters`;
   lengthconversionEl.innerHTML = lengthstring;
 });
